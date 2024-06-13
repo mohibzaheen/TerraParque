@@ -14,6 +14,7 @@ const Stack = createStackNavigator();
 export default function App () {
   return (
     <NavigationContainer >
+      {/* main navigator  */}
       <Stack.Navigator>
         <Stack.Screen name="Inicio" component = { TelaInicial } />
         <Stack.Screen name="Restaurante" component = { TelaRestaurantes } />
