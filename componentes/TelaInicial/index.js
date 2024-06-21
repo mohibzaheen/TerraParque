@@ -15,7 +15,7 @@ export default function TelaInicial(props){
             <View style={estilos.container}>
                 <View style={estilos.card}>
                     <View style={estilos.conteudo}>
-                        <Text style={estilos.titulo}>Terra Parque</Text>
+                        <Text style={estilos.titulo}>Terra Parque First</Text>
                         <Text style={estilos.texto}>Saiba o que visitar no Terra Parque</Text>
                     </View>
                     <Pressable 
